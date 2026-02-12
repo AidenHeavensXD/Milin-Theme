@@ -1,0 +1,31 @@
+{
+  "name": "milin-theme---new",
+  "displayName": "Milin Theme | New",
+  "description": "Ultra Smooth Dark Theme",
+  "version": "0.0.1",
+  "publisher": "AidenHeavens",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AidenHeavensXD/Milin-Theme"
+  },
+  "homepage": "https://github.com/AidenHeavensXD/Milin-Theme",
+  "bugs": {
+    "url": "https://github.com/AidenHeavensXD/Milin-Theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Milin Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Milin Dark-color-theme.json"
+      }
+    ]
+  }
+}

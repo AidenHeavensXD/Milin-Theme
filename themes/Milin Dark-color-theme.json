@@ -1,0 +1,54 @@
+{
+  "name": "Alya Soft Anime",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1b26",
+    "editor.foreground": "#f2d5cf",
+
+    "sideBar.background": "#1a1b26",
+    "activityBar.background": "#1a1b26",
+    "statusBar.background": "#1a1b26",
+    "panel.background": "#1a1b26",
+
+    "editor.lineHighlightBackground": "#2a2b3d44",
+    "editor.selectionBackground": "#f38ba830",
+
+    "editorCursor.foreground": "#ff7aa2",
+
+    "tab.activeForeground": "#ff7aa2",
+    "tab.inactiveForeground": "#565f89",
+    "activityBar.foreground": "#ff7aa2",
+    "activityBar.inactiveForeground": "#565f89",
+
+    "button.background": "#ff7aa2",
+    "button.foreground": "#1a1b26"
+  },
+
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#7f849c" }
+    },
+    {
+      "scope": "keyword",
+      "settings": { "foreground": "#ff7aa2" }
+    },
+    {
+      "scope": "string",
+      "settings": { "foreground": "#a6e3a1" }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": { "foreground": "#89b4fa" }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": { "foreground": "#f9c97f" }
+    },
+    {
+      "scope": "storage.type",
+      "settings": { "foreground": "#cba6f7" }
+    }
+  ]
+}
+
