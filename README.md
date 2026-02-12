@@ -1,16 +1,115 @@
-# milin-theme---new README
+# 🌙 Milin Dark
 
-## Working with Markdown
+> Ultra Smooth Dark Theme for VSCode & VSCodium
+> Clean. Soft. Minimal. Focused.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## ✨ Preview
 
-## For more information
+Milin Dark คือธีมโทนเข้มที่ออกแบบมาให้:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* 🎨 สีสบายตา ไม่แสบ
+* 🌸 Accent โทนชมพูพาสเทลแบบเนียน ๆ
+* 🧼 UI สะอาด ไม่มีเส้นรบกวนสายตา
+* ⚡ เหมาะกับสาย Dev ที่อยากได้ความ smooth แบบ Cursor
 
-**Enjoy!**
+---
+
+## 🎯 Features
+
+* Ultra smooth dark background `#1a1b26`
+* Soft pink accent `#ff7aa2`
+* Minimal UI (borderless feeling)
+* Clean syntax highlighting
+* รองรับ Semantic Highlighting
+* ใช้ได้ทั้ง VSCode และ VSCodium
+
+---
+
+## 📦 Installation
+
+### Install via VSIX
+
+```bash
+codium --install-extension milin-theme---new-0.0.1.vsix
+```
+
+หรือใน VSCode:
+
+```
+Extensions → ... → Install from VSIX
+```
+
+---
+
+## 🛠 Development
+
+Clone project:
+
+```bash
+git clone https://github.com/yourname/milin-theme.git
+cd milin-theme
+npm install
+```
+
+Build VSIX:
+
+```bash
+vsce package
+```
+
+Run Extension Dev Mode:
+
+```
+Press F5
+```
+
+---
+
+## 🎨 Recommended Settings
+
+เพื่อให้ได้ลุคที่เนียนที่สุด:
+
+```json
+{
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 2,
+  "editor.minimap.enabled": false
+}
+```
+
+---
+
+## 🖌 Color Palette
+
+| Element    | Color     |
+| ---------- | --------- |
+| Background | `#1a1b26` |
+| Foreground | `#f2d5cf` |
+| Accent     | `#ff7aa2` |
+| Strings    | `#a6e3a1` |
+| Functions  | `#89b4fa` |
+| Numbers    | `#f9c97f` |
+| Types      | `#cba6f7` |
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 💖 Support
+
+If you like Milin Dark:
+
+⭐ Star the repo
+🛠 Fork & customize
+🎨 Suggest improvements
+
+---
